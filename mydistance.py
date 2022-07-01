@@ -9,7 +9,7 @@ import smtplib
 
 # API key
 #api_file = open("api key.txt", "r")
-api_key = "eXSEsT6TdxudAqJfZ5kk2TjPbFd4h"
+api_key = "skmWdzOgKOmhQd3HFJCBb1LPo5p6i"
 #api_file.close()
 
 # home address input
@@ -66,7 +66,7 @@ if (seconds > 1800):
     s.starttls() 
       
     # authentication 
-    s.login(sender, "hiitesh123.") 
+    s.login(sender, "qcfcdvrcbdssomun") 
       
     # sending the mail 
     s.sendmail(sender, recipient, email)
